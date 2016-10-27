@@ -74,7 +74,14 @@ body {
     padding: 5px;
     border-bottom: 2px solid black;
 }
-
+.wrapper-coll>div{
+    float: left;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-top: 2px solid black;
+}
 .picture-coll{
     display: inline-block;
     width: 31%;
