@@ -66,7 +66,7 @@ body {
     padding: 10px;
 }
 .wrapper-coll{
-
+    float:left;
     text-align: center;
     display: inline-block;
     width: 31%;
