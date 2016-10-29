@@ -5,16 +5,18 @@ body {
     background-color: white;
     font-family: 'Arvo', serif;
     position: relative;
-    margin: 0;
-    padding-top: 5px;
-    padding-bottom: 50px;
+    margin: auto;
+    padding-top: 0.5%;
+    padding-bottom: 5%;
 
 }
 .header{
+
     height: 40px;
+
     width: 70%;
     margin: auto;
-    padding: 5px;
+    padding: 0.8%;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
@@ -36,7 +38,7 @@ body {
 }
 .header-nav > a{
     display: inline-block;
-    padding: 10px;
+    padding: 3%;
     font-size: 16px;
     font-weight: bold;
     color: black;
@@ -52,52 +54,57 @@ body {
     color: black;
 }
 .header-nav > a + a {
-    margin-left: 10px;
+    margin-left: 3%;
 }
 .wrapper{
+
+    display: inline-block;
+    margin-left: 15%;
     width: 70%;
-    margin: auto;
-    padding: 10px;
-    height: 70ex;
+    padding: 1%;
+
+
 }
 .wrapper-picture{
     width: 70%;
     margin: auto;
-    padding: 10px;
+    padding: 1%;
 }
 .wrapper-coll{
     float:left;
     text-align: center;
     display: inline-block;
-    width: 31%;
-    margin: 5px;
-    padding: 5px;
+    width: 30%;
+    margin: 0.5%;
+    padding: 0.5%;
     border-bottom: 2px solid black;
+
 }
 .wrapper-coll>div{
     float: left;
     text-align: center;
     display: inline-block;
-    margin: 5px;
-    padding: 5px;
+    margin: 0.5%;
+    padding: 0.5%;
     border-top: 2px solid black;
 }
 .picture-coll{
     display: inline-block;
-    width: 31%;
-    margin: 5px;
-    padding: 5px;
+    width: 30%;
+    margin: 0.5%;
+    padding: 0.5%;
 }
 .imgL{
     width: 100%;
     height: 100%;
 }
+
 .footer{
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 15px;
+    padding: 1%;
     background-color: whitesmoke;
     text-align: center;
 }
@@ -106,7 +113,7 @@ body {
 .bs{
     margin: auto;
     width: 70%;
-    padding: 10px;
+    padding: 1%;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
@@ -123,30 +130,30 @@ body {
     from{
         width:100%;
     }to{
-        width: 33%;
-         }
+         width: 40%;
+     }
 }
 
 .wiki{
     width: 70%;
     margin: auto;
-    padding: 10px;
+    padding: 1%;
     border-bottom: 2px solid black;
 }
 .wiki100{
     width: 70%;
     margin: auto;
-    padding: 10px;
+    padding: 1%;
     border-bottom: 2px solid black;
-    height: 55ex;
+
 }
 .leftimage {
     float:left;
-    margin: 7px 7px 7px 0;
+    margin: 1% 1% 1% 0;
 }
 .rightimage {
     float: right;
-    margin: 7px 0 7px 7px;
+    margin: 1% 0 1% 1%;
 }
 
 
