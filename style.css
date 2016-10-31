@@ -80,8 +80,6 @@ body {
 .wrapper-coll {
     text-align: center;
     display: inline-block;
-    border-bottom: 2px solid black;
-
 }
 @media screen and (min-device-width:1025px) {
     body {
