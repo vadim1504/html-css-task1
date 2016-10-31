@@ -1,7 +1,4 @@
-html{
-    height: 100%;
-}
-body {
+head,body {
     background-color: white;
     font-family: 'Arvo', serif;
     position: relative;
@@ -11,9 +8,7 @@ body {
 
 }
 .header{
-
     height: 40px;
-
     width: 70%;
     margin: auto;
     padding: 0.8%;
@@ -57,15 +52,13 @@ body {
     margin-left: 3%;
 }
 .wrapper{
-
     display: inline-block;
     margin-left: 15%;
     width: 70%;
     padding: 1%;
-
-
 }
 .wrapper-picture{
+    white-space:nowrap;
     width: 70%;
     margin: auto;
     padding: 1%;
@@ -74,7 +67,7 @@ body {
     float:left;
     text-align: center;
     display: inline-block;
-    width: 30%;
+    width: 31%;
     margin: 0.5%;
     padding: 0.5%;
     border-bottom: 2px solid black;
@@ -90,17 +83,18 @@ body {
 }
 .picture-coll{
     display: inline-block;
-    width: 30%;
-    margin: 0.5%;
+    width: 33%;
     padding: 0.5%;
 }
 .imgL{
     width: 100%;
     height: 100%;
 }
-
 .footer{
     position: absolute;
+    /*
+    position: fixed;
+    */
     right: 0;
     bottom: 0;
     left: 0;
@@ -108,8 +102,6 @@ body {
     background-color: whitesmoke;
     text-align: center;
 }
-
-
 .bs{
     margin: auto;
     width: 70%;
@@ -170,8 +162,6 @@ th {
     padding: 10px 15px;
     position: relative;
 }
-
-
 td {
     border-right: 1px solid white;
     border-left: 1px solid white;
