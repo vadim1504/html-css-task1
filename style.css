@@ -137,6 +137,7 @@ body {
         animation-name: lefr-right;
         animation-duration: 20s;
         animation-iteration-count: infinite;
+        animation-direction: alternate;
         font-size: 16px;
         text-align: right;
         width: 100%;
